@@ -2,7 +2,7 @@
 
 Landing page tiếng Việt cho hệ điều hành MyKOS. Trang tĩnh HTML/CSS/JavaScript, không cần framework, không có phụ thuộc npm, không có máy chủ ứng dụng hoặc cơ sở dữ liệu.
 
-**Chỉ chuẩn bị mã nguồn. Chưa triển khai hosting và chưa bật GitHub Pages.** Chủ repo có thể công khai và chọn cách triển khai sau.
+GitHub Pages đã triển khai commit `59ad95c` thành công ở lượt [42443176727](https://github.com/fx-kitsune/mykos-static-web/actions/runs/42443176727). Tệp `CNAME` khai báo `mykos.ulyk.id.vn`; DNS/HTTPS trên tên miền riêng chưa được kiểm tra trong lượt này.
 
 ## Nội dung
 
@@ -36,14 +36,14 @@ npm run build
 
 Lệnh kiểm tra xác nhận cú pháp JavaScript, ID, điểm neo, tài nguyên ảnh và hành vi menu/tab qua DOM giả lập. Đây không phải kiểm thử hiển thị bằng trình duyệt. Lệnh build sao chép trang và tài nguyên vào `dist/`, không gọi dịch vụ triển khai. Xem [kết quả kiểm tra](VALIDATION.md).
 
-## Công khai và hosting về sau
+## Hosting và cập nhật
 
 Có thể dùng thư mục gốc làm nguồn GitHub Pages hoặc tải nội dung `dist/` lên dịch vụ phục vụ tệp tĩnh. Tất cả đường dẫn CSS, JavaScript và ảnh là tương đối để chạy được dưới đường dẫn dự án như `/mykos-static-web/`.
 
-Khi chủ repo sẵn sàng công khai:
+Khi cập nhật triển khai:
 
 1. Kiểm tra lại nội dung, nhãn ảnh M1, tiến độ và quyền truy cập các liên kết tới repo MyKOS.
-2. Cấu hình hosting hoặc GitHub Pages theo lựa chọn của chủ repo. Workflow hiện tại chỉ kiểm tra, không triển khai.
+2. Cấu hình hosting hoặc GitHub Pages theo lựa chọn của chủ repo. Workflow `checks.yml` chỉ kiểm tra; Pages có lượt triển khai riêng của GitHub.
 3. Khi có tên miền chính thức, bổ sung `canonical`, `og:url` và ảnh Open Graph với URL tuyệt đối; không dùng tên miền mẫu.
 4. Kiểm tra trực quan trên desktop, điện thoại, điều hướng bàn phím và các liên kết ngoài trước khi quảng bá.
 

@@ -23,3 +23,9 @@ Do chưa có đường xem trước hoạt động, **chưa kiểm chứng hiể
 ## Chưa thực hiện
 
 Công khai repo, GitHub Pages, triển khai dịch vụ khác, cấu hình tên miền, kiểm tra SEO trên tên miền thật, trình đọc màn hình hoặc đo hiệu năng trong điều kiện mạng thực tế.
+
+## Cập nhật sau kiểm thử ISO ngày 09/11/2026 (giờ Việt Nam)
+
+Đã đồng bộ tiến độ trên trang với lượt cài đặt [42529928289](https://github.com/fx-kitsune/mykos/actions/runs/42529928289): BIOS/Plasma X11, mạng, tệp, độ phân giải và âm thanh ảo đã đạt. Discover còn lỗi xác thực được ghi ở tài liệu OS; trang vẫn không quảng bá bản ổn định. Các ảnh thiết kế tiếp tục dùng hình nền logo đã đồng bộ.
+
+GitHub Pages đã triển khai commit `59ad95c` ở [42443176727](https://github.com/fx-kitsune/mykos-static-web/actions/runs/42443176727), thay cho trạng thái chưa hosting ở bản ghi ban đầu. Chưa xác nhận DNS/HTTPS riêng hoặc bố cục trình duyệt bằng kết quả triển khai này.
