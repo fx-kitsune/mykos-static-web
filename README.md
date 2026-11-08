@@ -51,6 +51,6 @@ Repo MyKOS và Artifacts có thể yêu cầu tài khoản/quyền truy cập. T
 
 ## Tài nguyên và giấy phép
 
-Ảnh và biểu tượng được lấy từ repo `fx-kitsune/mykos`, bộ thiết kế M1 tại commit `41c12d9`. Ảnh là bản mẫu trình duyệt, không phải ảnh xác nhận KDE chạy trên ISO. Logo Fold và biểu tượng được giữ theo nguồn gốc dự án.
+Ảnh và biểu tượng được lấy từ repo `fx-kitsune/mykos`, bộ thiết kế M1 với hình nền logo MyKOS đồng bộ cùng repo hệ điều hành. Ảnh là bản mẫu trình duyệt, không phải ảnh xác nhận KDE chạy trên ISO. Logo Fold và biểu tượng được giữ theo nguồn gốc dự án.
 
 Mã nguồn trang dùng giấy phép MIT; xem [LICENSE](LICENSE). Thương hiệu Ubuntu, KDE và các thành phần liên quan thuộc chủ sở hữu tương ứng; trang không tuyên bố được các dự án đó bảo trợ.
