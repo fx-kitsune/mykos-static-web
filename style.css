@@ -666,7 +666,7 @@ details a {
   .hero {
     min-height:640px
   }
-  
+
 }
 @media(max-width:1000px) {
   h2 {
@@ -751,7 +751,7 @@ details a {
   .footer {
     gap:20px
   }
-  
+
 }
 @media(max-width:700px) {
   :root {
@@ -1051,7 +1051,7 @@ details a {
   .footer-year {
     margin-left:auto
   }
-  
+
 }
 @media(prefers-reduced-motion:reduce) {
   :root {
@@ -1060,7 +1060,7 @@ details a {
   * {
     transition:none!important
   }
-  
+
 }
 @media print {
   .menu-toggle {
@@ -1079,5 +1079,5 @@ details a {
   a[href]:after {
     content:none
   }
-  
+
 }
